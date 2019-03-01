@@ -1,0 +1,17 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "homepage": "https://DragonOsman.github.io/modern_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o _site/css/ --recursive",
+    "deploy": "gh-pages -d _site"
+  },
+  "author": "Osman Zakir",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
